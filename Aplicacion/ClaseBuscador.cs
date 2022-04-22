@@ -1,0 +1,6 @@
+namespace ClaseBuscador.Aplicacion
+{
+    
+
+
+}
