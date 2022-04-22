@@ -1,0 +1,15 @@
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\bin\Debug\net6.0\ProyectoProgramacion1.exe
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\bin\Debug\net6.0\ProyectoProgramacion1.deps.json
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\bin\Debug\net6.0\ProyectoProgramacion1.runtimeconfig.json
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\bin\Debug\net6.0\ProyectoProgramacion1.dll
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\bin\Debug\net6.0\ProyectoProgramacion1.pdb
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.csproj.AssemblyReference.cache
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.AssemblyInfoInputs.cache
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.AssemblyInfo.cs
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.csproj.CoreCompileInputs.cache
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.dll
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\refint\ProyectoProgramacion1.dll
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.pdb
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ProyectoProgramacion1.genruntimeconfig.cache
+C:\Users\Jerónimo\Desktop\Universidad\Segundo Semestre\Programacion1\Repositorios\Repositorio proyecto\ProyectoProgramacion1\obj\Debug\net6.0\ref\ProyectoProgramacion1.dll
