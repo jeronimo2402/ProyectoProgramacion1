@@ -1,8 +1,13 @@
 namespace AppEventos.Aplicacion
 {
-    public class ReservaActividad
+    public class ReservaActividad:Reserva
     {
         public string Horario;
-        public Actividad[] Actividades;
+        public Actividad Actividades;
+
+        public ReservaActividad(Usuario usuarios):base(usuarios)
+        {
+
+        }
     }
 }
