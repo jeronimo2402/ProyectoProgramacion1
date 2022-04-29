@@ -7,10 +7,14 @@ namespace AppEventos.Aplicacion
         public string Patrocinador;
         public Empresa[] Empresas;
         public string Duracion;
-        public Ubicacion[] Ubicaciones;
+        public Ubicacion Ubicaciones;
         public string Descripcion;
-        public ReservaEvento[] Reservas; 
+        public Reserva[] Reservas; 
         public Categoria Categorias; 
-       
+        public Evento(Empresa[] empresas, Reserva[] reservas)
+        {
+            Empresas = empresas;
+            Reservas = reservas;
+        }
     }
 }
