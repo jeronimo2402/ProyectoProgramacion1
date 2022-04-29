@@ -2,7 +2,7 @@ namespace AppEventos.Aplicacion
 {
     public class Buscador
     {
-        public Actividades Actividad;
+        public Actividad[] Actividades;
         public Eventos Evento;
     }
 }
