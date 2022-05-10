@@ -14,12 +14,12 @@ miCategoria.Nombre = "Entretenimiento";
 miCategoria.Logo = "Logo1";
 miCategoria.Color = "#AAA001";
 
-Actividad miActividad = new Actividad(miCategoria, miUbicacion);
+Actividad miActividad = new Actividad(miCategoria,miUbicacion);
 miActividad.Nombre = "Actividad1";
-miActividad.Abierto = true;
 miActividad.Descripcion = "Descripcion1";
 miActividad.Horario = "2:00 - 4:00";
 miActividad.Telefono = "3203115615";
+miActividad.Abierto = true;
 
 ActividadArchivo datosActividad = new ActividadArchivo();
 datosActividad.Actividades = new Actividad[1];

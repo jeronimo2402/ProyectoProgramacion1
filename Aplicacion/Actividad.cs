@@ -4,12 +4,12 @@ namespace AppEventos.Aplicacion
     {
         public string Nombre;
         public string Horario;
-        private Ubicacion Ubicaciones;
         public string Descripcion;
         public string Telefono;
         public Boolean Abierto;
-        private Categoria Categorias;
         public Reserva[] Reservas;
+        private Ubicacion Ubicaciones;
+        private Categoria Categorias;
 
         public Actividad(Categoria categorias,Ubicacion ubicaciones)
         {
