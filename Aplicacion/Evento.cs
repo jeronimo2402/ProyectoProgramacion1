@@ -5,16 +5,18 @@ namespace AppEventos.Aplicacion
         public string Nombre;
         public string Hora;
         public string Patrocinador;
-        public Empresa[] Empresas;
+        private Empresa[] Empresas;
         public string Duracion;
-        public Ubicacion Ubicaciones;
+        private Ubicacion Ubicaciones;
         public string Descripcion;
         public Reserva[] Reservas; 
-        public Categoria Categorias; 
-        public Evento(Empresa[] empresas, Reserva[] reservas)
+        private Categoria Categorias; 
+              
+        public Evento(Empresa[] empresas, Reserva[] reservas, Ubicacion ubicaciones)
         {
             Empresas = empresas;
             Reservas = reservas;
+            Ubicaciones = ubicaciones;
         }
     }
 }
