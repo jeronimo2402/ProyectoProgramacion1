@@ -6,5 +6,9 @@ namespace AppEventos.Aplicacion
         public string Direccion;
         public string Estado;
         
+        public override string ToString()
+        {
+            return String.Concat(Lugar,',',Direccion,',',Estado);
+        }
     }
 }

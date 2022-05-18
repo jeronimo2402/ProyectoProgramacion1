@@ -6,7 +6,7 @@ namespace ControlArchivos.Datos
     {
         public Ubicacion[] Ubicacion;
 
-        void GenerarTXT()
+        public void GenerarTXT()
         {
             string rutaCompleta = @"Ubicacion.csv";
             string texto = string.Join(",", Ubicacion.Select(n => n.ToString()).ToArray());

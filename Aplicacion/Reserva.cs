@@ -6,6 +6,7 @@ namespace AppEventos.Aplicacion
         public Evento Eventos;
         public Boolean Cancelado;
         public Pago Pagos;
+        public Actividad Actividades;
 
         public Reserva(Usuario usuarios)
         {
