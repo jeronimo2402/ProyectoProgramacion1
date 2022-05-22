@@ -12,10 +12,10 @@ namespace AppEventos.Aplicacion
         public Reserva[] Reservas; 
         private Categoria Categorias; 
               
-        public Evento(Empresa[] empresas, Reserva[] reservas, Ubicacion ubicaciones)
+        public Evento(Empresa[] empresas, Categoria categorias, Ubicacion ubicaciones)
         {
             Empresas = empresas;
-            Reservas = reservas;
+            Categorias = categorias;
             Ubicaciones = ubicaciones;
         }
     }

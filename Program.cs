@@ -26,4 +26,41 @@ datosActividad.Actividades = new Actividad[1];
 datosActividad.Actividades[0] = miActividad;
 datosActividad.GenerarTXT();
 
+Usuario miUsuario =new Usuario();
+miUsuario.Email = "jeronimomn32@gmail.com";
+miUsuario.NombreUsuario = "Jeronimo";
+miUsuario.Apellido = "Mosquera";
+
+UsuarioArchivo datosUsuario = new UsuarioArchivo();
+datosUsuario.Usuarios = new Usuario[1];
+datosUsuario.Usuarios[0]= miUsuario;
+datosUsuario.GenerarTXT();
+
+Reserva miReserva = new Reserva(miUsuario);
+miReserva.Cancelado = true;
+
+ReservaArchivo datosReserva = new ReservaArchivo();
+datosReserva.Reservas=new Reserva[1];
+datosReserva.Reservas[0]= miReserva;
+datosReserva.GenerarTXT();
+
+Empresa[] miEmpresa = new Empresa[1];
+miEmpresa[0].Nombre = "Jeronimo";
+miEmpresa[0].Telefono = "3119548649";
+
+
+Evento miEvento = new Evento(miEmpresa, miCategoria, miUbicacion);
+miEvento.Nombre = "Soltucorazón";
+miEvento.Descripcion = "sdadashdasdasdidsdadashdasdasdidsdadashdasdasdidsdadashda";
+miEvento.Duracion = "1:00 a 3:00 pm";
+
+EventoArchivo datosEvento = new EventoArchivo();
+datosEvento.Eventos= new Evento[1];
+datosEvento.Eventos[0]=miEvento;
+datosReserva.GenerarTXT();
+
+
+
+
+
 Console.ReadLine();
