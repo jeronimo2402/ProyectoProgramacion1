@@ -16,6 +16,11 @@ namespace AppEventos.Aplicacion
             Categorias = categorias;
             Ubicaciones = ubicaciones;
         }
+
+        public override string ToString()
+        {
+            return String.Concat(Nombre,',',Telefono,',',Descripcion,',',Horario,',',Abierto,',',Ubicaciones.Direccion,',',Ubicaciones.Lugar,',',Ubicaciones.Estado,',',Categorias.Logo,',',Categorias.Nombre);
+        }
     }
 
 

@@ -6,7 +6,7 @@ namespace ControlArchivos.Datos
     {
         public Categoria[] Categoria;
 
-        void GenerarTXT()
+        public void GenerarTXT()
         {
             string rutaCompleta = @"Categoria.csv";
             string texto = string.Join(",", Categoria.Select(n => n.ToString()).ToArray());
