@@ -12,5 +12,9 @@ namespace AppEventos.Aplicacion
         {
             Usuarios = usuarios;
         }
+        public override string ToString()
+        {
+            return String.Concat(Cancelado);
+        }
     }
 }

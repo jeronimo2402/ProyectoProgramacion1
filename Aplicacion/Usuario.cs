@@ -8,6 +8,11 @@ namespace AppEventos.Aplicacion
         public string Email;
         public string Clave;
         public Reserva[] Reservas;
+        
+        public override string ToString()
+        {
+            return String.Concat(NombreUsuario,',',Apellido,',',NumeroCelular,',',Email,',',Clave);
+        }
 
     }
 }

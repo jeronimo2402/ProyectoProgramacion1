@@ -5,18 +5,22 @@ namespace AppEventos.Aplicacion
         public string Nombre;
         public string Hora;
         public string Patrocinador;
-        private Empresa[] Empresas;
-        public string Duracion;
-        private Ubicacion Ubicaciones;
         public string Descripcion;
-        public Reserva[] Reservas; 
+        public string Duracion;
         private Categoria Categorias; 
+        private Ubicacion Ubicaciones;
+        public Reserva[] Reservas; 
+        private Empresa[] Empresas;
               
         public Evento(Empresa[] empresas, Categoria categorias, Ubicacion ubicaciones)
         {
             Empresas = empresas;
             Categorias = categorias;
             Ubicaciones = ubicaciones;
+        }
+        public override string ToString()
+        {
+            return String.Concat(Nombre,',',Hora,',',Patrocinador,',',Descripcion,',',Duracion);
         }
     }
 }

@@ -40,6 +40,8 @@ Usuario miUsuario =new Usuario();
 miUsuario.Email = "jeronimomn32@gmail.com";
 miUsuario.NombreUsuario = "Jeronimo";
 miUsuario.Apellido = "Mosquera";
+miUsuario.Clave = "****";
+miUsuario.NumeroCelular = "3108372071";
 
 UsuarioArchivo datosUsuario = new UsuarioArchivo();
 datosUsuario.Usuarios = new Usuario[1];
@@ -54,7 +56,8 @@ datosReserva.Reservas=new Reserva[1];
 datosReserva.Reservas[0]= miReserva;
 datosReserva.GenerarTXT();
 
-Empresa[] miEmpresa = new Empresa[1];
+Empresa[] miEmpresa= new Empresa[1];
+miEmpresa[0] =  new Empresa();
 miEmpresa[0].Nombre = "Jeronimo";
 miEmpresa[0].Telefono = "3119548649";
 
@@ -62,7 +65,10 @@ miEmpresa[0].Telefono = "3119548649";
 Evento miEvento = new Evento(miEmpresa, miCategoria, miUbicacion);
 miEvento.Nombre = "Soltucorazón";
 miEvento.Descripcion = "sdadashdasdasdidsdadashdasdasdidsdadashdasdasdidsdadashda";
-miEvento.Duracion = "1:00 a 3:00 pm";
+miEvento.Duracion = "1:00-3:00";
+miEvento.Hora = "1:00";
+miEvento.Patrocinador = "Cerebreando";
+
 
 EventoArchivo datosEvento = new EventoArchivo();
 datosEvento.Eventos= new Evento[1];
@@ -71,6 +77,6 @@ datosReserva.GenerarTXT();
 
 
 
-
-
+Console.ReadLine();
+Console.WriteLine("Helllo");
 Console.ReadLine();

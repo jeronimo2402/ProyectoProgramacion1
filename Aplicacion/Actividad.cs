@@ -22,7 +22,5 @@ namespace AppEventos.Aplicacion
             return String.Concat(Nombre,',',Telefono,',',Descripcion,',',Horario,',',Abierto,',',Ubicaciones.Direccion,',',Ubicaciones.Lugar,',',Ubicaciones.Estado,',',Categorias.Logo,',',Categorias.Nombre);
         }
     }
-
-
 }
 
