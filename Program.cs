@@ -76,6 +76,12 @@ datosEvento.Eventos[0]=miEvento;
 datosReserva.GenerarTXT();
 
 
+ReservaActividad miReservaActividad = new ReservaActividad(miUsuario);
+miReservaActividad.Horario = "L 10am-12pm,M 10am-12pm,M 10am-12pm,J 10am-12pm,V 10am-12pm";
+
+ReservaEvento miReservaEvento = new ReservaEvento(miUsuario);
+miReservaEvento.Hora = "10am-2pm";
+
 
 Console.ReadLine();
 Console.WriteLine("Helllo");
