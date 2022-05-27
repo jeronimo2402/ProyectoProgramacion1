@@ -18,7 +18,7 @@ namespace AppEventos.Aplicacion
         }
         public virtual void CualesCual()
         {
-            
+            Console.WriteLine("Es Reserva");
         }
     }
 }
