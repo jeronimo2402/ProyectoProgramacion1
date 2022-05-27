@@ -16,5 +16,9 @@ namespace AppEventos.Aplicacion
         {
             return String.Concat(Cancelado);
         }
+        public virtual void CualesCual()
+        {
+            
+        }
     }
 }

@@ -24,18 +24,6 @@ datosCategoria.Categoria = new Categoria[1];
 datosCategoria.Categoria[0] = miCategoria;
 datosCategoria.GenerarTXT();
 
-Actividad miActividad = new Actividad(miCategoria,miUbicacion);
-miActividad.Nombre = "Actividad1";
-miActividad.Descripcion = "Descripcion1";
-miActividad.Horario = "2:00 - 4:00";
-miActividad.Telefono = "3203115615";
-miActividad.Abierto = true;
-
-ActividadArchivo datosActividad = new ActividadArchivo();
-datosActividad.Actividades = new Actividad[1];
-datosActividad.Actividades[0] = miActividad;
-datosActividad.GenerarTXT();
-
 Usuario miUsuario =new Usuario();
 miUsuario.Email = "jeronimomn32@gmail.com";
 miUsuario.NombreUsuario = "Jeronimo";
@@ -64,7 +52,7 @@ miEmpresa[0].Telefono = "3119548649";
 
 Evento miEvento = new Evento(miEmpresa, miCategoria, miUbicacion);
 miEvento.Nombre = "Soltucorazón";
-miEvento.Descripcion = "sdadashdasdasdidsdadashdasdasdidsdadashdasdasdidsdadashda";
+miEvento.Descripcion = "Descripcion del evento";
 miEvento.Duracion = "1:00-3:00";
 miEvento.Hora = "1:00";
 miEvento.Patrocinador = "Cerebreando";
@@ -72,17 +60,33 @@ miEvento.Patrocinador = "Cerebreando";
 
 EventoArchivo datosEvento = new EventoArchivo();
 datosEvento.Eventos= new Evento[1];
-datosEvento.Eventos[0]=miEvento;
-datosReserva.GenerarTXT();
+datosEvento.Eventos[0]= miEvento;
+datosEvento.GenerarTXT();
+
+Actividad miActividad = new Actividad(miCategoria,miUbicacion);
+miActividad.Nombre = "Actividad1";
+miActividad.Descripcion = "Descripcion1";
+miActividad.Horario = "2:00 - 4:00";
+miActividad.Telefono = "3203115615";
+miActividad.Abierto = true;
+
+ActividadArchivo datosActividad = new ActividadArchivo();
+datosActividad.Actividades = new Actividad[1];
+datosActividad.Actividades[0] = miActividad;
+datosActividad.GenerarTXT();
 
 
 ReservaActividad miReservaActividad = new ReservaActividad(miUsuario);
 miReservaActividad.Horario = "L 10am-12pm,M 10am-12pm,M 10am-12pm,J 10am-12pm,V 10am-12pm";
+miReservaActividad.Cancelado = false;
+miReservaActividad.CualesCual();
 
 ReservaEvento miReservaEvento = new ReservaEvento(miUsuario);
 miReservaEvento.Hora = "10am-2pm";
+miReservaEvento.Cancelado = false;
+miReservaEvento.CualesCual();
 
 
-Console.ReadLine();
-Console.WriteLine("Helllo");
+
+
 Console.ReadLine();

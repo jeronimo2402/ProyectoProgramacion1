@@ -8,5 +8,10 @@ namespace AppEventos.Aplicacion
         {
 
         }
+        public override void CualesCual()
+        {
+            Eventos = null;
+            Console.WriteLine("Ahora es reserva de actividad");
+        }
     }
 }
